@@ -1,0 +1,8 @@
+.footer-base{
+    height: 250px;
+}
+.footer-email{
+    width: 325px !important;
+    height: 48px !important;
+    align-items: center;
+}

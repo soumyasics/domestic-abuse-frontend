@@ -1,0 +1,43 @@
+.home-hero{
+background-image: url('../../../Assets/Frame\ 28.png');
+width: auto;
+height: 775.587px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.home-heading{
+color: rgba(50, 148, 218, 0.98);
+text-align: center;
+font-family: Sahitya;
+font-size: 51.541px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.home-para{
+color: rgba(10, 62, 100, 0.98);
+text-align: center;
+font-family: Sahitya;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.home-inner-para{
+color: #000;
+font-family: Sahitya;
+font-size: 37.64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.home-circular-div {
+    width: 100px !important; /* Adjust the width and height as needed */
+    height: 100px; /* Adjust the width and height as needed */
+    background-color: white;
+    border-radius: 50%; /* This creates a circular shape */
+    border: 2px solid white; /* Optional: Add border for styling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
