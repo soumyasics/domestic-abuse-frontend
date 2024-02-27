@@ -8,7 +8,7 @@ import brain from '../../../Assets/Frame 6-1.png';
 import dummy from '../../../Assets/Frame 31.png';
 function Home() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid p-0'>
         <div className='home-hero'>
 
         </div>
@@ -52,7 +52,9 @@ function Home() {
             </div>
             
         </div>
-        <img src={divider} className='img-fluid'/>
+        <div className='container-fluid'>
+            <img src={divider} className='img-fluid object-fit-cover'/>
+        </div>
         <div className='container text-center'>
             <div className="row">
                 <div className="col-12 home-heading m-5">

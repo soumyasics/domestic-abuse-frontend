@@ -34,8 +34,8 @@ function Footer() {
   <div className="row">
     <div className="col"></div>
     <div className="col-8 d-flex justify-content-end">
-      <input type="email" className="form-control text-primary footer-email m-3" id="exampleFormControlInput1" placeholder="Enter your email address"/>
-      <button type="button" className="btn btn-light text-primary my-3 py-3 w-25">Subscribe</button>
+      <input type="email" className="form-control text-primary footer-email mx-3" id="exampleFormControlInput1" placeholder="Enter your email address"/>
+      <button type="button" className="btn btn-light text-primary h-100 w-25">Subscribe</button>
     </div>
   </div>
 </div>

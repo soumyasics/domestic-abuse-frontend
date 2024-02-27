@@ -4,29 +4,29 @@ import brand from '../../../Assets/Frame 10.png';
 import user_img from '../../../Assets/Ellipse 4.png'
 function Navbar() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid p-0 '>
         <nav className="navbar navbar-expand-lg  bg-primary-custom " id='navbar-linked'>
         
         <a className="navbar-brand  mx-5" href="#"><img src={brand} alt='user'/></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse mx-5 justify-content-end" id="navbarNav1">
-            <ul className="navbar-nav ml-auto mx-5 ">
+        <div className="collapse navbar-collapse mx-5 justify-content-end " id="navbarNav1">
+            <ul className="navbar-nav ml-auto mx-5">
                 <li className="nav-item active">
-                    <a className="nav-link  mx-3" href="#">Home</a>
+                    <a className="nav-link  mx-3 text-primary" href="#">Home</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link  mx-3" href="#">About Us</a>
+                    <a className="nav-link  mx-3 text-primary" href="#">About Us</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link  mx-3" href="#">Gallery</a>
+                    <a className="nav-link  mx-3 text-primary" href="#">Gallery</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link  mx-3" href="#">Jobs</a>
+                    <a className="nav-link  mx-3 text-primary" href="#">Jobs</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link  mx-3" href="#">Contact Us</a>
+                    <a className="nav-link  mx-3 text-primary" href="#">Contact Us</a>
                 </li>
                 <li className='nav-item btn-group mx-3'>
                     <button type="button" className="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
@@ -34,9 +34,9 @@ function Navbar() {
                     </button>
                     <img src={user_img} alt='user'/>
                     <ul className="dropdown-menu">
-                        <li><a className="dropdown-item nav-link text-dark" href="#">Action</a></li>
-                        <li><a className="dropdown-item nav-link text-dark" href="#">Another action</a></li>
-                        <li><a className="dropdown-item nav-link text-dark" href="#">Something else here</a></li>
+                        <li><a className="dropdown-item nav-link text-primary" href="#">Action</a></li>
+                        <li><a className="dropdown-item nav-link text-primary" href="#">Another action</a></li>
+                        <li><a className="dropdown-item nav-link text-primary" href="#">Something else here</a></li>
                     </ul>
                 
                 </li>
